@@ -1,0 +1,35 @@
+button {
+	margin: 0 auto;
+	width: 80px;
+	display: flex;
+	box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+	text-align: center;
+	padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: whitesmoke;
+    font-style: oblique;
+}
+
+.card {
+	margin: auto;
+	width: 450px;
+    display: flex;
+    padding-top:10px;
+    border: 2px solid red;
+    top: 80%;
+	justify-content: space;
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 70%;
+    height:70%;
+  }
+
